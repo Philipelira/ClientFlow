@@ -1,0 +1,17 @@
+<h2>Lista de clientes</h2>
+
+<div>
+  <a routerLink="/clientes/novo">
+    <button>Adicionar Cliente</button>
+  </a>
+</div>
+
+<div *ngIf="clientes.length === 0">
+  <p>Nenhum cliente cadastrado.</p>
+</div>
+
+<ul *ngIf="clientes.length > 0">
+  <li *ngFor="let cliente of clientes">
+    ID: {{ cliente.id }} - Nome: {{ cliente.nome }} - Email: {{ cliente.email }} - Telefone: {{ cliente.telefone ? cliente.telefone : 'Não informado'}}
+  </li>
+</ul>
