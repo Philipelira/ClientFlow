@@ -1,4 +1,4 @@
-package com.amadeu.projeto.minhaprimeiraapi.domain;
+package com.amadeu.projeto.clienteback.domain;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

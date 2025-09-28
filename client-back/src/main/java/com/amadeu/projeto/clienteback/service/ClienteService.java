@@ -1,7 +1,7 @@
-package com.amadeu.projeto.minhaprimeiraapi.service;
+package com.amadeu.projeto.clienteback.service;
 
-import com.amadeu.projeto.minhaprimeiraapi.domain.Cliente;
-import com.amadeu.projeto.minhaprimeiraapi.repository.ClienteRepository;
+import com.amadeu.projeto.clienteback.domain.Cliente;
+import com.amadeu.projeto.clienteback.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -29,6 +29,7 @@ public class ClienteService {
         if(clienteExistente != null){
             clienteExistente.setNome(cliente.getNome());
             clienteExistente.setEmail(cliente.getEmail());
+            clienteExistente.setTelefone(cliente.getTelefone());
             return clienteRepository.save(clienteExistente);
         }
         return null;

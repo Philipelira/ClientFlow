@@ -1,10 +1,10 @@
-package com.amadeu.projeto.minhaprimeiraapi;
+package com.amadeu.projeto.clienteback;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MinhaPrimeiraApiApplicationTests {
+class ClienteBackApplicationTests {
 
     @Test
     void contextLoads() {

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.amadeu.projeto</groupId>
-    <artifactId>minha-primeira-api</artifactId>
+    <artifactId>client-back</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>minha-primeira-api</name>
-    <description>minha-primeira-api</description>
+    <name>client-back</name>
+    <description>cleinte-back</description>
     <url/>
     <licenses>
         <license/>
