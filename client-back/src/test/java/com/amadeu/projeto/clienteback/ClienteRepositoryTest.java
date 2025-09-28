@@ -1,7 +1,7 @@
-package com.amadeu.projeto.minhaprimeiraapi;
+package com.amadeu.projeto.clienteback;
 
-import com.amadeu.projeto.minhaprimeiraapi.domain.Cliente;
-import com.amadeu.projeto.minhaprimeiraapi.repository.ClienteRepository;
+import com.amadeu.projeto.clienteback.domain.Cliente;
+import com.amadeu.projeto.clienteback.repository.ClienteRepository;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

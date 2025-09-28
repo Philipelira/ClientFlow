@@ -1,8 +1,7 @@
-package com.amadeu.projeto.minhaprimeiraapi.controller;
+package com.amadeu.projeto.clienteback.controller;
 
-import com.amadeu.projeto.minhaprimeiraapi.domain.Cliente;
-import com.amadeu.projeto.minhaprimeiraapi.repository.ClienteRepository;
-import com.amadeu.projeto.minhaprimeiraapi.service.ClienteService;
+import com.amadeu.projeto.clienteback.domain.Cliente;
+import com.amadeu.projeto.clienteback.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

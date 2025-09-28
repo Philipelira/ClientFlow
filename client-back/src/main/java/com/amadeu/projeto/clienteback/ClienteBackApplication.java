@@ -1,13 +1,13 @@
-package com.amadeu.projeto.minhaprimeiraapi;
+package com.amadeu.projeto.clienteback;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MinhaPrimeiraApiApplication {
+public class ClienteBackApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MinhaPrimeiraApiApplication.class, args);
+        SpringApplication.run(ClienteBackApplication.class, args);
     }
 
 }
